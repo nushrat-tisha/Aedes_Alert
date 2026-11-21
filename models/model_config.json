@@ -1,0 +1,43 @@
+{
+    "model_features": [
+        "rain_lag_1",
+        "rain_lag_2",
+        "rain_lag_3",
+        "rain_lag_4",
+        "rain_roll_2",
+        "rain_roll_3",
+        "rain_roll_4",
+        "temp_roll_2",
+        "temp_roll_4",
+        "humidity_roll_2",
+        "humidity_roll_4",
+        "population_density_sqkm",
+        "water_logging_risk_index",
+        "sanitation_score",
+        "month",
+        "week_of_year"
+    ],
+    "prediction_horizons": [
+        2,
+        3,
+        4
+    ],
+    "risk_thresholds": {
+        "Low": [
+            0,
+            2
+        ],
+        "Medium": [
+            2,
+            5
+        ],
+        "High": [
+            5,
+            9
+        ],
+        "Critical": [
+            9,
+            null
+        ]
+    }
+}
